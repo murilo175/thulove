@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/BackgroundF.png');
+    background-size: cover; /* Para cobrir toda a área do corpo */   
+    background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+    padding: 20px;
+}
+
+.quadrado {
+    text-align: center;
+    width: 400px;
+    height: auto;
+    
+    margin: 120px auto;
+    backdrop-filter: blur(15px);
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    
+}
+
+
+#button {
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+
+#audio {
+    backdrop-filter: blur(15px);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+#audio:hover {
+    transform: scale(1.2);
+}

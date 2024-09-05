@@ -1,0 +1,142 @@
+body {
+    background-image: url('../img/FundoCompatibilidade.png');
+}
+
+.quadrado {
+    width: 450px;
+    text-align: center;
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    font-family: "Playwrite IN", cursive;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.square{
+    position: absolute;
+    background: #966d72;
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px;
+    padding: 20px;
+  }
+  
+  .square .borda:first-of-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right, red, red);
+    animation: animar1 2.1s linear infinite;
+  }
+  
+  @keyframes animar1{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+  }
+  
+  .square .borda:nth-of-type(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(to right, red, red);
+    animation: animar2 2.1s linear infinite;
+    animation-delay: 1s;
+  }
+  
+  @keyframes animar2{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+  }
+  
+  .square .borda:nth-of-type(3) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right, red, red);
+    animation: animar3 2.1s linear infinite;
+  }
+  
+  @keyframes animar3{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+  }
+  
+  .square .borda:last-of-type {
+    position: absolute;
+    bottom: 0;
+    
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(to right, red, red);
+    animation: animar4 2.1s linear infinite;
+    animation-delay: 1s;
+  }
+  
+  @keyframes animar4{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+  }
+  
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 15px;
+    
+    background-color: #bf848b;
+    border: 2px solid #bf848b;
+    border-radius: 10px;
+    font-family: "Lobster Two", sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.8s, border 0.8s,  background-color 0.8s ease-in-out ;
+}
+
+button:hover {
+    background-color: red;
+    border: 2px solid red;
+    transition-duration: 1s;
+    transform: scale(1.2);
+  }
+  
+.coracao {
+    color: black;
+}
+
+#botao {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home {
+    color: green;
+}

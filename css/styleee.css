@@ -1,0 +1,46 @@
+body {
+    background-image: url("img/Porcentagem\ de\ dar\ certo\ com\ o\ 1.svg");
+    background-repeat: no-repeat;
+    font-family: "Lumanosimo", "cursive";
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    position: absolute;
+    left: 35%;
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: #c11213;
+}
+.quadrado {
+    font-family: "Dancing Script", "cursive";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: xx-large;
+    color: #cf1735;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="text"]#yourName {
+    border-radius: 5%; /* Define o raio de arredondamento como 50% */
+    width: 200px; /* Define a largura do campo */
+    height: 10px; /* Define a altura do campo (ajuste se necessário) */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border: 1px solid #c06a6a; /* Define uma borda fina cinza */
+  }
+
+  input[type="text"]#Namecrush {
+    border-radius: 5%; /* Define o raio de arredondamento como 50% */
+    width: 200px; /* Define a largura do campo */
+    height: 10px; /* Define a altura do campo (ajuste se necessário) */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border: 1px solid #c06a6a; /* Define uma borda fina cinza */
+  }
+
+

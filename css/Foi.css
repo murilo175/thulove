@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/Background.webp');
+    background-size: cover; /* Para cobrir toda a área do corpo */   
+    background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+    padding: 20px;
+}
+
+.quadrado {
+    text-align: center;
+    width: 400px;
+    height: auto;
+    
+    margin: 120px auto;
+    backdrop-filter: blur(30px);
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+#button {
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+
+#audio {
+    backdrop-filter: blur(15px);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+#audio:hover {
+    transform: scale(1.1);
+}
+
+/* Para navegadores WebKit (Chrome, Safari, Edge moderno) */
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem vertical */
+    height: 12px; /* Altura da barra de rolagem horizontal */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Cor do polegar */
+    border-radius: 6px; /* Arredondar os cantos do polegar */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Cor de fundo da trilha */
+    border-radius: 6px; /* Arredondar os cantos da trilha */
+}
+
+/* Para Firefox */
+html {
+    scrollbar-width: thin; /* Espessura da barra de rolagem */
+    scrollbar-color: #888 #f1f1f1; /* Cor do polegar e da trilha, respectivamente */
+}
